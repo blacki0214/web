@@ -807,3 +807,15 @@ button {
   }
 
 }
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.container {
+  padding: 16px;
+}
