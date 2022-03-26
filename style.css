@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@700&display=swap');
 :root{
   --orange:#ffa500;
 }
@@ -25,10 +25,6 @@ html{
   overflow-x: hidden;
   scroll-padding-top: 6rem;
   scroll-behavior: smooth;
-}
-
-section{
-  padding:2rem 9%;
 }
 
 .heading{
@@ -639,14 +635,11 @@ header .search-bar-container label:hover{
 form{
   position: relative;
     top: -622px;
-    left: -854px;
-    width: 361px;
+    left: -866px;
+    width: 203px;
     font-size: 20px;
-}
-
-#name{
-  width: 495px;
-  height: 27px;
+    width: 500px;
+    margin: 20px auto;
 }
 
 label{
@@ -659,50 +652,119 @@ label{
 }
 
 table {
+  display: table;
   border-collapse: collapse;
   width: 500px;
   margin: 20px auto;
   text-align: center;
   position: relative;
-  top: -626px;
-  left: -852px;
+  top: -454px;
+  left: -672px;
+  box-sizing: border-box;
+  overflow: auto;
 }
 table td,
 table th {
   border: solid 1px black;
 }
 
-table,form {
+table {
   width: 500px;
   margin: 20px auto;
+  
 }
 
-#name1{
-  width: 495px;
-  height: 27px;
-}
-
-#name2{
-  width: 495px;
-  height: 27px;
-}
-
-#name3{
-  width: 495px;
-  height: 27px;
-}
-
-#name4{
-  width: 495px;
-  height: 27px;
-}
-
-#name5{
-  width: 495px;
-  height: 27px;
+#data{
+  position: relative;
+  top: -468px;
+  left: 20px;
 }
 
 
+
+button{
+  color: red;
+}
+
+button:hover{
+  color: blue;
+}
+
+#icon{
+  position: relative;
+    left: 4px;
+    top: -998px;
+    width: 166px;
+    height: 237px;
+    max-width: 100%;
+}
+
+#text1{
+  position: relative;
+  bottom: 1220px;
+  left: 168px;
+  font-size: 60px;
+  color: hsla(59, 100.00%, 53.57%, 1.00);
+  font-family: 'Sen', sans-serif;
+}
+
+#text2{
+  position: relative;
+    bottom: 1227px;
+    left: 166px;
+    font-size: 60px;
+    color: hsla(0, 0%, 100%, 1.00);
+    font-family: 'Sen', sans-serif;
+}
+
+#text3{
+  position: relative;
+    bottom: 1237px;
+    left: 164px;
+    font-size: 60px;
+    color: #222;
+    font-family: 'Sen', sans-serif;
+}
+
+#team{
+  width: 502px;
+  box-shadow: 2px 5px 11px -4px;
+}
+
+#email{
+  width: 502px;
+  box-shadow: 2px 5px 11px -4px;
+}
+
+#name{
+  width: 502px;
+  box-shadow: 2px 5px 11px -4px;
+}
+
+#ingame{
+  width: 502px;
+  box-shadow: 2px 5px 11px -4px;
+}
+
+#discord{
+  width: 502px;
+  box-shadow: 2px 5px 11px -4px;
+}
+
+#save{
+  width: 502px;
+  box-shadow: 2px 5px 11px -4px yellow;
+}
+
+#logo{
+  position: relative;
+  top: -227px;
+  left: -333px;
+}
+
+body{
+  display: block;
+}
 
 
 
@@ -785,4 +847,17 @@ table,form {
     width:100%;
   }
 
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.container {
+  padding: 16px;
 }
